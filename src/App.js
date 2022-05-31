@@ -34,7 +34,8 @@ function App() {
     <div className="App">
       <h1>Polish Notation Calculator</h1>
       <h2>What kind of expression do you want to convert?</h2>
-
+      <p>Enter with spaces between each token or it will <strong>not</strong> work</p>
+      <p>For an <strong>infix</strong> expression use <strong>parentheses</strong> to designate order of operations</p>
       <form onSubmit={handleSubmit}>
         <select value={inputType} onChange={(e) => setInputType(e.target.value)}>
           <option value="infix">Infix</option>
