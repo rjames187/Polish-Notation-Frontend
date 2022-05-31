@@ -54,6 +54,11 @@ function App() {
         <li>Prefix: {displayData["prefix"]}</li>
         <li>Postfix: {displayData["postfix"]}</li>
       </ul>
+
+      <footer>
+        <p>Created by: Rory James</p>
+        <a href="https://github.com/rjames187/Polish-Notation-Frontend">View Source</a>
+      </footer>
     </div>
   );
 }
